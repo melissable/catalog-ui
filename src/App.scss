@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  /* font-size: calc(10px + 2vmin); */
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main {
+  min-height: 80vh;
+}
+
+.itemCard {
+  min-height: 25vh;
+}
+.itemRow {
+  max-height: 100px;
+}
+.thumbnailImg {
+  height: 100px;
+  width: 100px;
+  padding: 0;
+}
+
+.smallInput {
+  width: 50px !important;
+}
+
+.btn.viewTypeButton {
+  height: 42px !important;
+  width: 42px !important;
+  padding-top: .2em;
+  &.active {
+    background-color: orange;
+  }
+}
+
+strong {
+  &:hover {
+    color: orange;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  border-style: none;
+}
